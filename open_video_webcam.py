@@ -12,5 +12,7 @@ while True:
     #to get out of a loop 
     if cv.waitKey(20) & 0xFF == ord("q"):
         break
+
+        
 capture.release()
 cv.destroyAllWindows()
