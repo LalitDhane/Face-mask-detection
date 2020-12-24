@@ -3,7 +3,7 @@ import cv2 as cv
 # 0 is for webcam  
 capture = cv.VideoCapture(0)
 
-
+#while loop
 while True:
 	#read a frame of a video
     ret, frame = capture.read()
